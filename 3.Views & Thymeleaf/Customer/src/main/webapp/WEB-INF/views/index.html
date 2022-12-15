@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="/layout :: head">
+</head>
+<body>
+<h3>Customers</h3>
+<p>
+    <a th:href="@{/customer/create}">Add new Customer</a>
+</p>
+<div class="notify">
+    <div th:if="${success}">
+        <span th:text="${success}"></span>
+    </div>
+</div>
+
+<form th:action="@{/customer/search}" method="post">
+     <input type="text" name="search" placeholder="Search">
+    <button type="submit">Search</button>
+</form>
+
+<table id= "customers">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Address</th>
+        <th>Department</th>
+        <th>Edit</th>
+        <th>Delete</th>
+        <th>View</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each = "row,rowStat : ${customers}">
+        <td th:text = "${row.getName()}"></td>
+        <td th:text = "${row.getEmail()}"></td>
+        <td th:text = "${row.getAddress()}"></td>
+        <td th:text = "${row.department.name}"></td>
+        <td><a th:href="@{/customer/{id}/edit(id=${row.getId()})}">edit</a></td>
+        <td><a th:href="@{/customer/{id}/delete(id=${row.getId()})}">delete</a></td>
+        <td><a th:href="@{/customer/{id}/view(id=${row.getId()})}">view</a></td>
+    </tr>
+    </tbody>
+
+</table>
+</body>
+<footer th:replace="/layout :: footer"></footer>
+</html>
