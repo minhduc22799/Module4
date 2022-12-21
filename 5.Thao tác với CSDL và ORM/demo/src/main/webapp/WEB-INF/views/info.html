@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Customer Information</title>
+</head>
+<body>
+<p>
+<a href="/customers">Back to list</a>.
+</p>
+<div>
+  <form action="/customers" method="post">
+    <input type="hidden" name="id" th:value="${customer.id}" >
+    <table>
+      <tr>
+        <td>Id</td>
+        <td th:text="${customer.id}"></td>
+      </tr>
+      <tr>
+        <td>FistName</td>
+        <td>
+          <input type="text" name="firstName" th:value="${customer.firstName}" >
+        </td>
+      </tr>
+      <tr>
+        <td>LastName</td>
+        <td>
+          <input type="text" name="lastName" th:value="${customer.lastName}">
+        </td>
+      </tr>
+      <tr>
+        <td>Address</td>
+        <td>
+          <input type="text" name="address" th:value="${customer.address}">
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <input type="submit" value="Update">
+        </td>
+      </tr>
+    </table>
+</form>
+</div>
+</body>
+</html>

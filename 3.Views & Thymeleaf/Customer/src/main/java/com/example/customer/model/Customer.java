@@ -22,7 +22,6 @@ public class Customer {
     public void setDepartment(Department department) {
         this.department = department;
     }
-
     public Customer() {
     }
 

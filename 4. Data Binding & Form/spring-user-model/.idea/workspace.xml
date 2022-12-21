@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="898de051-7000-4bf8-b55a-db94710ff648" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../3.Views &amp; Thymeleaf/Customer/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/src/main/java/com/example/uploadfile/config/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/src/main/java/com/example/uploadfile/config/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/src/main/java/com/example/uploadfile/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/src/main/java/com/example/uploadfile/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/src/main/java/com/example/uploadfile/model/ProductForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/src/main/java/com/example/uploadfile/service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/src/main/java/com/example/uploadfile/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/src/main/resources/upload_file.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/src/main/webapp/WEB-INF/image/picwish.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/src/main/webapp/WEB-INF/views/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mvc-form-tutorial/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mvc-form-tutorial/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mvc-form-tutorial/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mvc-form-tutorial/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mvc-form-tutorial/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mvc-form-tutorial/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mvc-form-tutorial/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mvc-form-tutorial/src/main/java/com/example/springmvcformtutorial/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mvc-form-tutorial/src/main/java/com/example/springmvcformtutorial/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mvc-form-tutorial/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mvc-form-tutorial/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mvc-form-tutorial/src/main/webapp/WEB-INF/views/employee/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mvc-form-tutorial/src/main/webapp/WEB-INF/views/employee/info.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mvc-form-tutorial/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springusermodel/DAO/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springusermodel/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springusermodel/model/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springusermodel/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Thao tác với CSDL và ORM/demo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Thao tác với CSDL và ORM/demo/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Thao tác với CSDL và ORM/demo/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Thao tác với CSDL và ORM/demo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Thao tác với CSDL và ORM/demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Thao tác với CSDL và ORM/demo/src/main/java/com/example/demo/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Thao tác với CSDL và ORM/demo/src/main/java/com/example/demo/initial/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Thao tác với CSDL và ORM/demo/src/main/java/com/example/demo/initial/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Thao tác với CSDL và ORM/demo/src/main/java/com/example/demo/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Thao tác với CSDL và ORM/demo/src/main/java/com/example/demo/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Thao tác với CSDL và ORM/demo/src/main/java/com/example/demo/service/HibernateCustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Thao tác với CSDL và ORM/demo/src/main/resources/hibernate.conf.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Thao tác với CSDL và ORM/demo/src/main/webapp/WEB-INF/views/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Thao tác với CSDL và ORM/demo/src/main/webapp/WEB-INF/views/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.JPA/Customer/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.JPA/Customer/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.JPA/Customer/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.JPA/Customer/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.JPA/Customer/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.JPA/Customer/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.JPA/Customer/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.JPA/Customer/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.JPA/Customer/src/main/java/com/example/customer/config/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.JPA/Customer/src/main/java/com/example/customer/config/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.JPA/Customer/src/main/java/com/example/customer/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.JPA/Customer/src/main/java/com/example/customer/controller/ProvinceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.JPA/Customer/src/main/java/com/example/customer/formatter/ProvinceFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.JPA/Customer/src/main/java/com/example/customer/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.JPA/Customer/src/main/java/com/example/customer/model/Province.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.JPA/Customer/src/main/java/com/example/customer/repository/ICustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.JPA/Customer/src/main/java/com/example/customer/repository/IProvinceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.JPA/Customer/src/main/java/com/example/customer/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.JPA/Customer/src/main/java/com/example/customer/service/ICustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.JPA/Customer/src/main/java/com/example/customer/service/IGeneralService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.JPA/Customer/src/main/java/com/example/customer/service/IProvinceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.JPA/Customer/src/main/java/com/example/customer/service/ProvinceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.JPA/Customer/src/main/webapp/WEB-INF/views/customer/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.JPA/Customer/src/main/webapp/WEB-INF/views/customer/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.JPA/Customer/src/main/webapp/WEB-INF/views/customer/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.JPA/Customer/src/main/webapp/WEB-INF/views/customer/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.JPA/Customer/src/main/webapp/WEB-INF/views/error.404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.JPA/Customer/src/main/webapp/WEB-INF/views/province/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.JPA/Customer/src/main/webapp/WEB-INF/views/province/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.JPA/Customer/src/main/webapp/WEB-INF/views/province/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.JPA/Customer/src/main/webapp/WEB-INF/views/province/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.JPA/Customer/src/main/webapp/WEB-INF/views/province/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.JPA/Customer2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.JPA/Customer2/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.JPA/Customer2/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.JPA/Customer2/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.JPA/Customer2/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.JPA/Customer2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.JPA/Customer2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.JPA/Customer2/src/main/java/com/example/customer2/config/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.JPA/Customer2/src/main/java/com/example/customer2/config/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.JPA/Customer2/src/main/java/com/example/customer2/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.JPA/Customer2/src/main/java/com/example/customer2/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.JPA/Customer2/src/main/java/com/example/customer2/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.JPA/Customer2/src/main/java/com/example/customer2/repository/ICustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.JPA/Customer2/src/main/java/com/example/customer2/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.JPA/Customer2/src/main/java/com/example/customer2/service/ICustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.JPA/Customer2/src/main/webapp/WEB-INF/views/customer/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../7.Spring Data Repository/Customer/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../7.Spring Data Repository/Customer/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../7.Spring Data Repository/Customer/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../7.Spring Data Repository/Customer/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8. Validation/CustomValidation/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8. Validation/CustomValidation/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8. Validation/CustomValidation/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8. Validation/CustomValidation/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8. Validation/CustomValidation/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8. Validation/CustomValidation/src/main/java/com/example/customvalidation/config/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8. Validation/CustomValidation/src/main/java/com/example/customvalidation/config/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8. Validation/CustomValidation/src/main/java/com/example/customvalidation/controller/PhoneController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8. Validation/CustomValidation/src/main/java/com/example/customvalidation/model/PhoneNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8. Validation/CustomValidation/src/main/resources/validation-message.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8. Validation/CustomValidation/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8. Validation/CustomValidation/src/main/webapp/WEB-INF/views/result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8. Validation/ValidateForm/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8. Validation/ValidateForm/src/main/java/com/example/validateform/config/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8. Validation/ValidateForm/src/main/java/com/example/validateform/config/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8. Validation/ValidateForm/src/main/java/com/example/validateform/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8. Validation/ValidateForm/src/main/java/com/example/validateform/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8. Validation/ValidateForm/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8. Validation/ValidateForm/src/main/webapp/WEB-INF/views/result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8. Validation/ValidatingFormInput/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8. Validation/ValidatingFormInput/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8. Validation/ValidatingFormInput/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8. Validation/ValidatingFormInput/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8. Validation/ValidatingFormInput/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8. Validation/ValidatingFormInput/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8. Validation/ValidatingFormInput/src/main/java/com/example/validatingforminput/config/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8. Validation/ValidatingFormInput/src/main/java/com/example/validatingforminput/config/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8. Validation/ValidatingFormInput/src/main/java/com/example/validatingforminput/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8. Validation/ValidatingFormInput/src/main/java/com/example/validatingforminput/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8. Validation/ValidatingFormInput/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8. Validation/ValidatingFormInput/src/main/webapp/WEB-INF/views/result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3.Views &amp; Thymeleaf/Customer/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../3.Views &amp; Thymeleaf/Customer/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3.Views &amp; Thymeleaf/Customer/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../3.Views &amp; Thymeleaf/Customer/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3.Views &amp; Thymeleaf/Customer/src/main/java/com/example/customer/config/AppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../3.Views &amp; Thymeleaf/Customer/src/main/java/com/example/customer/config/AppInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3.Views &amp; Thymeleaf/Customer/src/main/java/com/example/customer/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../3.Views &amp; Thymeleaf/Customer/src/main/java/com/example/customer/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3.Views &amp; Thymeleaf/Customer/src/main/java/com/example/customer/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../3.Views &amp; Thymeleaf/Customer/src/main/java/com/example/customer/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3.Views &amp; Thymeleaf/Customer/src/main/webapp/WEB-INF/views/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../3.Views &amp; Thymeleaf/Customer/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3.Views &amp; Thymeleaf/Customer/src/main/webapp/WEB-INF/views/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../3.Views &amp; Thymeleaf/Customer/src/main/webapp/WEB-INF/views/edit.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="applicationContext" />
+        <option value="dispatcher-servlet" />
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2IwN8aulozB3yXRewTaVjO6TuOy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Module4/6.JPA/Customer2",
+    "spring.configuration.checksum": "d8ed98f1702fe568b9aedde534b73cf6"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.70" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.70" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="hot-swap-classes" />
+      <deployment>
+        <artifact name="Gradle : com.example : spring-user-model-1.0-SNAPSHOT.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="1a9bdb67-2407-43cf-a368-083792682fe9" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64833" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Gradle : com.example : spring-user-model-1.0-SNAPSHOT.war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="898de051-7000-4bf8-b55a-db94710ff648" name="Changes" comment="" />
+      <created>1671088528962</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671088528962</updated>
+      <workItem from="1671088530309" duration="864000" />
+      <workItem from="1671592424569" duration="21000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
