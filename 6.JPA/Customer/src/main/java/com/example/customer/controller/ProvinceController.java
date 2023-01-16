@@ -5,16 +5,17 @@ import com.example.customer.model.Province;
 import com.example.customer.service.ICustomerService;
 import com.example.customer.service.IProvinceService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
+import java.util.List;
 import java.util.Optional;
 
-@Controller
+@RestController
+@RequestMapping("/api/categories")
 public class ProvinceController {
     @Autowired
     private IProvinceService provinceService;
@@ -30,6 +31,24 @@ public class ProvinceController {
         modelAndView.addObject("provinces", provinces);
         return modelAndView;
     }
+    @GetMapping
+    public ResponseEntity<Iterable<Province>> findAllCategories() {
+        List<Province> provinces = (List<Province>) provinceService.findAll();
+        if (provinces.isEmpty()) {
+            return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+        }
+        return new ResponseEntity<>(provinces, HttpStatus.OK);
+    }
+
+    @GetMapping("/{id}")
+    public ResponseEntity<Province> findProvinceById(@PathVariable Long id) {
+        Optional<Province> provinceOptional = provinceService.findById(id);
+        if (!provinceOptional.isPresent()) {
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+        return new ResponseEntity<>(provinceOptional.get(), HttpStatus.OK);
+    }
+
 
     @GetMapping("/create-province")
     public ModelAndView showCreateForm() {

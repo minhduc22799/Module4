@@ -119,4 +119,5 @@ public class AppConfiguration implements WebMvcConfigurer, ApplicationContextAwa
         registry.addFormatter(new ProvinceFormatter(applicationContext.getBean(ProvinceService.class)));
 
     }
+
 }

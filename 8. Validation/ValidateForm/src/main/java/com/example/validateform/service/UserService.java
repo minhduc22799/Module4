@@ -3,6 +3,7 @@ package com.example.validateform.service;
 import com.example.validateform.model.User;
 import com.example.validateform.repository.IUserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;
@@ -14,17 +15,26 @@ public class UserService implements IUserService {
 
 
     @Override
-    public Iterable<User> findAll() {
+    public Iterable<User> findAll() throws Exception {
+        if (true) throw new Exception("a dummy exception");
        return iUserRepository.findAll();
     }
     @Override
-    public void save(User user) {
-        iUserRepository.save(user);
+    public void save(User user) throws DuplicateEmailException {
+        try {
+            iUserRepository.save(user);
+        }catch (DataIntegrityViolationException e){
+            throw new DuplicateEmailException();
+        }
     }
 
     @Override
-    public Optional<User> findById(Long id) {
-        return Optional.empty();
+    public Optional<User> findById(Long id) throws Exception {
+        Optional<User> customerOptional = iUserRepository.findById(id);
+        if (!customerOptional.isPresent()) {
+            throw new Exception("customer not found!");
+        }
+        return customerOptional;
     }
 
 

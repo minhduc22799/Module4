@@ -26,6 +26,11 @@ public class ProvinceService implements IProvinceService{
     }
 
     @Override
+    public Province save1(Province province) {
+        return iProvinceRepository.save(province);
+    }
+
+    @Override
     public void remove(Long id) {
         iProvinceRepository.deleteById(id);
     }

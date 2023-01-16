@@ -8,14 +8,18 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.web.PageableDefault;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
 
+import java.util.List;
 import java.util.Optional;
-
-@Controller
+//@Controller
+@RestController
+@RequestMapping("/api/customers")
 public class CustomerController {
 
     @Autowired
@@ -27,6 +31,21 @@ public class CustomerController {
     public Iterable<Province> provinces(){
         return provinceService.findAll();
     }
+
+    @GetMapping
+    public ResponseEntity<Iterable<Customer>> findAllCustom() {
+        List<Customer> customers = (List<Customer>) customerService.findAll();
+        if (customers.isEmpty()) {
+            return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+        }
+        return new ResponseEntity<>(customers, HttpStatus.OK);
+    }
+
+    @PostMapping
+    public ResponseEntity<Customer> saveCustomers(@RequestBody Customer customer) {
+        return new ResponseEntity<>(customerService.save1(customer), HttpStatus.CREATED);
+    }
+
 
     @GetMapping("/create-customer")
     public ModelAndView showCreateForm() {
@@ -54,6 +73,8 @@ public class CustomerController {
         modelAndView.addObject("customers", customers);
         return modelAndView;
     }
+
+
 
 
     @GetMapping("/edit-customer/{id}")
@@ -97,6 +118,7 @@ public class CustomerController {
         customerService.remove(customer.getId());
         return "redirect:customers";
     }
+
 
 
 }

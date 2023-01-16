@@ -10,8 +10,7 @@ public class Province {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
-    @OneToMany(targetEntity = Customer.class)
-    private List<Customer> customers;
+
 
     public Province() {
     }
@@ -19,7 +18,7 @@ public class Province {
     public Province(Long id, String name, List<Customer> customers) {
         this.id = id;
         this.name = name;
-        this.customers = customers;
+
     }
 
     public Long getId() {
@@ -38,11 +37,5 @@ public class Province {
         this.name = name;
     }
 
-    public List<Customer> getCustomers() {
-        return customers;
-    }
 
-    public void setCustomers(List<Customer> customers) {
-        this.customers = customers;
-    }
 }

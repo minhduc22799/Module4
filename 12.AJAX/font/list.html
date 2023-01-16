@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>List Smartphone</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript">
+
+        function addNewSmartPhone(id) {
+            let local_url;
+            let type_controler;
+            let btn = "Add"
+            document.getElementById("btn").innerHTML = btn;
+            let producer = $('#producer').val();
+            let model = $('#model').val();
+            let price = $('#price').val();
+            let newSmartphone = {
+                producer: producer,
+                model: model,
+                price: price
+            };
+            if (id == null) {
+                local_url = "http://localhost:8080//smartphones";
+                type_controler = "POST"
+            } else {
+                local_url = "http://localhost:8080//smartphones/" + id;
+                type_controler = "PUT"
+            }
+            $.ajax({
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
+                },
+                type: type_controler,
+                data: JSON.stringify(newSmartphone),
+                url: local_url,
+                success: successHandler
+
+
+            });
+            event.preventDefault();
+        }
+
+        function successHandler() {
+            $.ajax({
+                type: "GET",
+                url: "http://localhost:8080//smartphones",
+                success: function (data) {
+                    let content = '    <tr>\n' +
+                        '        <td>Producer</td>\n' +
+                        '        <td>Model</td>\n' +
+                        '        <td>Price</td>\n' +
+                        '        <td>Delete</td>\n' +
+                        '        <td>Update</td>\n' +
+                        '    </tr>';
+                    for (let i = 0; i < data.length; i++) {
+                        content += getSmartphone(data[i]);
+                    }
+                    document.getElementById('smartphoneList').innerHTML = content;
+                }
+            });
+        }
+
+        function getSmartphone(smartphone) {
+            return `<tr><td >${smartphone.producer}</td><td >${smartphone.model}</td><td >${smartphone.price}</td>` +
+                `<td><button class="deleteSmartphone" onclick="deleteSmp(${smartphone.id})">Delete</button></td>`+
+                `<td><button class="updateSmartphone" onclick="updateSmp(${smartphone.id})">Update</button></td></tr>`;
+        }
+
+
+        function deleteSmp(id) {
+            if(confirm("Are you sure?")) {
+                $.ajax({
+                    type: "DELETE",
+                    url: `http://localhost:8080//smartphones/${id}`,
+                    success: function () {
+                        successHandler();
+                    },
+                });
+            }
+        }
+
+        function updateSmp(id) {
+            let btn = "Update";
+            document.getElementById("btn").innerHTML = btn;
+            $.ajax({
+                type: "GET",
+                url: "http://localhost:8080//smartphones/" + id,
+                success: function (data) {
+                    document.getElementById('producer').value = data.producer;
+                    document.getElementById('model').value = data.model;
+                    document.getElementById('price').value = data.price;
+                    document.getElementById('btn').setAttribute("onclick", "addNewSmartPhone("+ id + ")");
+                },
+            })
+        }
+    </script>
+</head>
+<body onload="successHandler()">
+<form id="add-smartphone">
+    <table>
+        <tr>
+            <td>Producer:</td>
+            <td><input type="text" id="producer" placeholder="producer"></td>
+        </tr>
+        <tr>
+            <td>Model:</td>
+            <td><input type="text" id="model" placeholder="model"></td>
+        </tr>
+        <tr>
+            <td>Price:</td>
+            <td><input type="text" id="price" placeholder="price"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <button id="btn" onclick="addNewSmartPhone()">Add</button>
+            </td>
+        </tr>
+    </table>
+</form>
+<h1>Smartphone List</h1>
+<table id="smartphoneList">
+
+</table>
+</body>
+</html>

@@ -30,8 +30,18 @@ public class CustomerService implements ICustomerService{
     }
 
     @Override
+    public Customer save1(Customer customer) {
+        return customerRepository.save(customer);
+    }
+
+    @Override
     public void remove(Long id) {
         customerRepository.deleteById(id);
+    }
+
+    @Override
+    public Page<Customer> findAll(Pageable pageable) {
+        return customerRepository.findAll(pageable);
     }
 
     @Override

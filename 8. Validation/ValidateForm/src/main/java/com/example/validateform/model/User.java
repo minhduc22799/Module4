@@ -19,6 +19,7 @@ public class User {
     private int age;
     @Email
     @NotBlank
+    @Column(unique = true)
     private String email;
 
 
